@@ -1,7 +1,10 @@
 # Multilayerd-General-Neural-Network
 This is my personal Multilayered General Neural Network project built from scratch. Currently, the only file needed is *NN.py*. The implementation utilizes Python with NumPy and Matplotlib (only needed if you want to plot the error) as dependencies. These can be installed with the following commands:
-* pip install numpy
-* pip install matplotlib
+```
+pip install numpy
+pip install matplotlib
+```
+For great slides on how neural networks do their thing, check out Keith Downing's (my professor) [slides](http://www.idi.ntnu.no/emner/it3105/tdt76/) from the Deep Learning Theory Module held the autumn of 2017 at NTNU (especially lecture 2).
 
 ## Status
 The current code base should support any basic neural network configuration. By basic, I mean the following:
