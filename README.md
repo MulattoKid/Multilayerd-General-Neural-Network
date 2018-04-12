@@ -4,7 +4,7 @@ This is my personal Multilayered General Neural Network project built from scrat
 pip install numpy
 pip install matplotlib
 ```
-For great slides on how neural networks do their thing, check out Keith Downing's (my professor) [slides](http://www.idi.ntnu.no/emner/it3105/tdt76/) from the Deep Learning Theory Module held the autumn of 2017 at NTNU (especially lecture 2).
+For great slides on how neural networks do their thing, check out Keith Downing's (my professor) [slides](http://www.idi.ntnu.no/emner/it3105/tdt76/) from the Deep Learning Theory Module held the autumn of 2017 at NTNU (especially lecture 2). My implementation does not currently utilize Jacobian matrices for the backpropagation.
 
 ## Status
 The current code base should support any basic neural network configuration. By basic, I mean the following:
