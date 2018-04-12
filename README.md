@@ -14,6 +14,10 @@ The current code base should support any basic neural network configuration. By 
 * Static learning rate
 * Runs for *n* epochs, regardless of error convergence
 
+### Other features
+* Perform validation testing every *n* epoch
+* Dropout
+
 ### Activations functions
 Currently, the following activation functions are supported:
 * Logistic
@@ -24,9 +28,9 @@ Currently, the following loss functions are supported:
 
 ## Usage
 ```python
-nn = NeuralNetwork(layer_sizes=[8, 4, 2, 1], learning_rate=0.1)
-nn.Train(10000, case_base)
-nn.Classify(case_base)
+nn = NN.NeuralNetwork(layer_sizes=[8, 32, 16, 4], learning_rate=0.1)
+nn.Train(20, training_cases, validation_interval=100)
+nn.Test(test_cases)
 nn.PlotError()
 ```
 The *case_base* must have the following structure:
